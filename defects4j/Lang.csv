@@ -32,7 +32,7 @@ Lang,65
 16,13c7f19a5ad506340a7c8d8601ef4bf2426ab325
 #,org/apache/commons/lang3/math/NumberUtils.java,458
 17,b4255e6d071dc8d48bfc51037cecb29097b9a49d
-#,org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83:88:89:90:94:96:97:98:101:102
+#,org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,83:88:89:90:94:96:97:98:99:100:102
 18,2aa9dca994b006ccbfcb528de5ff0da6a5578411
 #,org/apache/commons/lang3/time/FastDateFormat.java,495:496:498
 19,0b3a8a3128890f710700d04e38df48b883d11d91
@@ -44,11 +44,11 @@ Lang,65
 22,0b2b82ad923b0455cde93286e3f504a1abd0863b
 #,org/apache/commons/lang3/math/Fraction.java,582:583:584
 23,46356183872f2cba5e340993c6d85597a4f3cdbb
-#,org/apache/commons/lang3/text/ExtendedMessageFormat.java,72:74:75
+#,org/apache/commons/lang3/text/ExtendedMessageFormat.java,71:72:74:75
 24,81903abbb25ff92597d5f1e3acc648d12bdee444
 #,org/apache/commons/lang3/math/NumberUtils.java,1413
 25,2bae68787d15c3d3540380164e62759485078ec1
-#,org/apache/commons/lang3/text/translate/EntityArrays.java,31:74:75:76:77:78:79:80:81:82:83:84:85:86:87:88:89:90:91:92:93:94:95:96:97:98:99:100
+#,org/apache/commons/lang3/text/translate/EntityArrays.java,30:31:74:75:76:77:78:79:80:81:82:83:84:85:86:87:88:89:90:91:92:93:94:95:96:97:98:99:100
 26,75d5b74a1a7ef68c5169f4b44cdf972c1ab07ee0
 #,org/apache/commons/lang3/time/FastDateFormat.java,820
 27,c2560c028173c3bc0a4627d4ce5ce221bcc9be66
@@ -100,9 +100,9 @@ Lang,65
 50,659ef247b1452b6d5b9f92271357381fa59fea50
 #,org/apache/commons/lang/time/FastDateFormat.java,285:286:287:288:289:290:292:293:294:465:466:467:468:469:471:472:473
 51,a5589b39e985e64861bd920aa7b13ab32c215b06
-#,org/apache/commons/lang/BooleanUtils.java,682
+#,org/apache/commons/lang/BooleanUtils.java,670:671:682
 52,868f6976aea222e96259843f56df9aed8e48584b
-#,org/apache/commons/lang/StringEscapeUtils.java,222:228:232:236
+#,org/apache/commons/lang/StringEscapeUtils.java,221:222:228:232:236
 53,d3b1163073c7aeb6011a5b65bfadad15bfc0f108
 #,org/apache/commons/lang/time/DateUtils.java,643:644:645:647:648:649:652:653:654:656:657:658
 54,e89e8d62b911340cc5b293465cdae909f3dfd640
@@ -114,7 +114,7 @@ Lang,65
 57,bbd990b81fd7f8ab9dde75c8070b973b9ce500fc
 #,org/apache/commons/lang/LocaleUtils.java,223
 58,1fd45a4f68ea497dfbdf1a67b8b8805a4a9b1166
-#,org/apache/commons/lang/math/NumberUtils.java,454:455
+#,org/apache/commons/lang/math/NumberUtils.java,452:454:455
 59,c04cd2337786ce7d54ed1fb757192fb8bc8c5e41
 #,org/apache/commons/lang/text/StrBuilder.java,884
 60,a8203b65261110c4a30ff69fe0da7a2390d82757

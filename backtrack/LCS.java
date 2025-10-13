@@ -63,6 +63,9 @@ class LCS {
   }
 
   public static int lcs(String text1, String text2) {
+    //remove characters above UTF-8 256 (can't deal with those)
+    text1 = text1.replaceAll("[^\\x00-\\xFF]", "");
+    text2 = text2.replaceAll("[^\\x00-\\xFF]", "");
     // Strip leading whitespace and match separately
     int i1 = text1.indexOf(text1.stripLeading());
     int i2 = text2.indexOf(text2.stripLeading());

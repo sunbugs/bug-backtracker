@@ -110,7 +110,7 @@
 }
 ,
 {
-"bug": {"5": {"org/jfree/data/xy/XYSeries.java": [545, 546, 547, 548]}}
+"bug": {"5": {"org/jfree/data/xy/XYSeries.java": [544, 545, 546, 547, 548]}}
 ,"6": {"5": {"org/jfree/data/xy/XYSeries.java": [522, 523]}}
 ,"7": {"5": {"org/jfree/data/xy/XYSeries.java": [522, 523]}}
 ,"8": {"5": {"org/jfree/data/xy/XYSeries.java": [522, 523]}}
@@ -262,20 +262,20 @@
 }
 ,
 {
-"bug": {"13": {"org/jfree/chart/block/BorderArrangement.java": [455]}}
-,"14": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"15": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"16": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"17": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"18": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"19": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"20": {"13": {"org/jfree/chart/block/BorderArrangement.java": [492]}}
-,"21": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
-,"22": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
-,"23": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
-,"24": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
-,"25": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
-,"26": {"13": {"org/jfree/chart/block/BorderArrangement.java": [494]}}
+"bug": {"13": {"org/jfree/chart/block/BorderArrangement.java": [454, 455]}}
+,"14": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"15": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"16": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"17": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"18": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"19": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"20": {"13": {"org/jfree/chart/block/BorderArrangement.java": [491, 492]}}
+,"21": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
+,"22": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
+,"23": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
+,"24": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
+,"25": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
+,"26": {"13": {"org/jfree/chart/block/BorderArrangement.java": [493, 494]}}
 }
 ,
 {
@@ -363,7 +363,7 @@
 }
 ,
 {
-"bug": {"21": {"org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": [157, 158, 188, 189, 742]}}
+"bug": {"21": {"org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": [157, 158, 188, 189, 739, 740, 741, 742]}}
 ,"22": {"21": {"org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": [156, 188, 189]}}
 ,"23": {"21": {"org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": [145]}}
 ,"24": {"21": {"org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java": [145]}}
@@ -380,8 +380,10 @@
 }
 ,
 {
-"bug": {"23": {"org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": []}}
-,"23": "failed"
+"bug": {"23": {"org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": [101, 107]}}
+,"24": {"23": {"org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": [101, 107]}}
+,"25": {"23": {"org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": [101, 107]}}
+,"26": {"23": {"org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java": [101, 107]}}
 }
 ,
 {

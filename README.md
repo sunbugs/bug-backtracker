@@ -4,6 +4,9 @@ This directory contains all the necessary components needed to track
 through git histories. This is mostly done by the `backtrack.jar` JAR file,
 however there are also some helper scripts included to setup the project
 backtracking.
+# Requirements
+1. `Bash`
+2. [`patchutils`](https://directory.fsf.org/wiki/Patchutils)
 # Usage
 ## Input
 To use this backtracking tool, you must have the commit hashes of the bug fixing

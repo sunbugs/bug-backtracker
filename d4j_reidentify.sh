@@ -31,16 +31,28 @@ project=$1
 if [ "$versions" == "" ]; then
   versions="$(defects4j bids -p "$project")"
 fi
+set -o pipefail # necessary for checking return value of a pipe
 for version in $versions; do
   echo "Version: $version"
   defects4j checkout -p "$project" -v "${version}b" -w "$project-${version}b" &> /dev/null
   defects4j checkout -p "$project" -v "${version}f" -w "$project-${version}f" &> /dev/null
   sha="$(grep "^$version," defects4j/$project.csv | cut -d ',' -f 2)"
   cd "$project-${version}f"
-  patch -R -p1 < "../projects/$project/diffs/$sha.diff" &> /dev/null
+  filterdiff -p1 -i "$src*" "../projects/$project/diffs/$sha.diff" | patch -R -p1 &> /dev/null
+  # if failed, try patching with 2 leading slashes as prefix stripped
+  if [ $? -ne 0 ]; then
+    filterdiff -p2 -i "$src*" "../projects/$project/diffs/$sha.diff" | patch -R -p1 &> /dev/null
+    if [ $? -ne 0 ]; then
+      echo "ERROR: Could not apply patch for version $version, skipping diff..."
+      nopatch=1
+    fi
+  fi
   cd ../
   #mkdir "temp_diffs"
-  diff -Nru "$project-${version}f/$src" "$project-${version}b/$src" > "projects/$project/diffs/start-$version.diff"
+  if [ "$nopatch" != "1" ]; then
+    diff -Nru "$project-${version}f/$src" "$project-${version}b/$src" \
+      > "projects/$project/diffs/start-$version.diff"
+  fi
   #cp "projects/$project/diffs/$sha.diff" "temp_diffs/$sha.diff"
   #echo "$sha" > temp_shas
   #echo "temp" >> temp_shas

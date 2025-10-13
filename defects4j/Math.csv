@@ -30,7 +30,7 @@ Math,106
 11,aa2bd1d0656b0001192aa2b2ef779cfd1f3b7e4d
 #,org/apache/commons/math3/distribution/MultivariateNormalDistribution.java,183
 12,cc82d38aaf6ec24758a0a6df9535b8204e22ef12
-#,org/apache/commons/math3/random/BitsStreamGenerator.java,29
+#,org/apache/commons/math3/random/BitsStreamGenerator.java,29:32
 13,8079ea5b8d1366445da532906e43afa9291473cf
 #,org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizer.java,562:564
 14,a6b2e992e17cee0d4cb5a2da8242a20b8e5a8fc3
@@ -116,7 +116,7 @@ Math,106
 53,7707b0bb80be05bbf6533a36bb0c646cbfd1026d
 #,org/apache/commons/math/complex/Complex.java,153
 54,c00ac8120a4215125e49775cd9351e689586b467
-#,org/apache/commons/math/dfp/Dfp.java,272:273:2319
+#,org/apache/commons/math/dfp/Dfp.java,272:273:2319:2320
 55,0c38504ffa3ef520ce78e260538d7b8742c895e8
 #,org/apache/commons/math/geometry/Vector3D.java,458:459:460:461:462:463:464:465:466:467:468:469:470:471:472:473
 56,e06fe05e2dd68936e770ba67caa7b9924568170d

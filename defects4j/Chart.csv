@@ -8,7 +8,7 @@ Chart,26
 4,6e39e8eb532298fee6981cc367ebdef9e250e1e1
 #,org/jfree/chart/plot/XYPlot.java,4492:4493:4501
 5,091f0e663557eb4dfa9a38a9c10539c49681d76a
-#,org/jfree/data/xy/XYSeries.java,545:546:547:548
+#,org/jfree/data/xy/XYSeries.java,544:545:546:547:548
 6,04384246901dcfc5d51ffb76eaf51b7fd810121e
 #,org/jfree/chart/util/ShapeList.java,111
 7,eb4b452b7096423df725f27806745f18b2eb320e
@@ -24,7 +24,7 @@ Chart,26
 12,2d2c1df7307b4186c4a10828610fed46b95198f8
 #,org/jfree/chart/plot/MultiplePiePlot.java,145
 13,1ce94bbb63699e834c45a728438a7a4ccd8d4bbc
-#,org/jfree/chart/block/BorderArrangement.java,455
+#,org/jfree/chart/block/BorderArrangement.java,454:455
 14,01fefa9e4f998a44e7fcdb3e1190a5e08a75087d
 #,org/jfree/chart/plot/CategoryPlot.java,2166:2448
 #,org/jfree/chart/plot/XYPlot.java,2293:2529
@@ -42,11 +42,11 @@ Chart,26
 20,ecf5f27eaaa1a45fad060bec7c0d435102a55c49
 #,org/jfree/chart/plot/ValueMarker.java,95
 21,694a9e193a7dd2203b64c6b8777624590b6d5a3b
-#,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,157:158:188:189:742
+#,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,157:158:188:189:739:740:741:742
 22,185a9ce5929dd7097998d8c74561175ea3e7be0b
 #,org/jfree/data/KeyedObjects2D.java,231:233:316:317:318:319:320:345:378:379
 23,c52ec6d2de0bdc8e549921e50f11c6e8dcae48c9
-#,org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,
+#,org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,101:107
 24,82135c9ad768b03ae446b8d622c5d400e07a2c9d
 #,org/jfree/chart/renderer/GrayPaintScale.java,126
 25,67a2f86cabc143d593d35939bf7dc5d9a2fe3478
