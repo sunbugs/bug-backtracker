@@ -29071,6 +29071,7 @@ File org/joda/time/DateTimeZone.java
 Bug 9 Lines:
 File org/joda/time/DateTimeZone.java
 257:	"        if (minutesOffset < 0 || minutesOffset > 59) {"
+258:	"            throw new IllegalArgumentException("Minutes out of range: " + minutesOffset);"
 262:	"            int hoursInMinutes = FieldUtils.safeMultiply(hoursOffset, 60);"
 264:	"                minutesOffset = FieldUtils.safeAdd(hoursInMinutes, -minutesOffset);"
 266:	"                minutesOffset = FieldUtils.safeAdd(hoursInMinutes, minutesOffset);"

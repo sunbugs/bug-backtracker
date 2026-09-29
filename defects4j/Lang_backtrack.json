@@ -1562,10 +1562,10 @@
 }
 ,
 {
-"bug": {"62": {"org/apache/commons/lang/Entities.java": [850, 920, 925, 926]}}
-,"63": {"62": {"org/apache/commons/lang/Entities.java": [845, 911, 916, 918]}}
-,"64": {"62": {"org/apache/commons/lang/Entities.java": [844, 910, 915, 917]}}
-,"65": {"62": {"org/apache/commons/lang/Entities.java": [844, 910, 915, 917]}}
+"bug": {"62": {"org/apache/commons/lang/Entities.java": [850, 919, 920, 925, 926]}}
+,"63": {"62": {"org/apache/commons/lang/Entities.java": [845, 910, 911, 916, 918]}}
+,"64": {"62": {"org/apache/commons/lang/Entities.java": [844, 909, 910, 915, 917]}}
+,"65": {"62": {"org/apache/commons/lang/Entities.java": [844, 909, 910, 915, 917]}}
 }
 ,
 {
